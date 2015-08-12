@@ -31,5 +31,5 @@ gulp.task('serve', function() {
 });
 
 gulp.task('default', ['compile', 'serve'], function() {
-    gulp.watch('src/**/*.js', ['compile']);
+    gulp.watch('src/*.js', ['compile']);
 });
