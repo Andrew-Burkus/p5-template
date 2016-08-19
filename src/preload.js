@@ -9,3 +9,5 @@ function preload() {
         height = h;
     }
 }
+
+export default preload;

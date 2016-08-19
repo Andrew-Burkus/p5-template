@@ -3,3 +3,5 @@ function setup() {
     canvas = createCanvas(windowWidth, windowHeight).parent('container');
     noFill();
 }
+
+export default setup;
